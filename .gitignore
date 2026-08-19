@@ -1,0 +1,21 @@
+# credentials and session — NEVER commit these
+.env
+*.session
+*.session-journal
+.tgpipe-login.json
+
+# output
+downloads/
+export/
+*.jsonl
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+.DS_Store
